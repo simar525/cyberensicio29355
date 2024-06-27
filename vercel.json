@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/home",
+      "destination": "https://www.cyberensic.com.au"
+ },
+     {
       "source": "/(.*)",
       "destination": "https://www.cyberensic.com.au/$1"
  }
